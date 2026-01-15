@@ -1,0 +1,5 @@
+{
+  "name": "runn-party",
+  "main": "src/server.ts",
+  "compatibilityDate": "2024-12-01"
+}
