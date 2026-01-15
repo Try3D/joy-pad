@@ -11,7 +11,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 
 type GameConfig = Record<string, unknown>;
 
-const PARTYKIT_HOST = "localhost:1999";
+const PARTYKIT_HOST = import.meta.env.VITE_PARTYKIT_HOST;
 
 interface UseHostOptions {
   roomId: string;
