@@ -11,7 +11,7 @@
     "test:watch": "vitest",
     "test:unit": "vitest run --project unit",
     "test:integration": "vitest run --project integration",
-    "test:all": "bun test"
+    "test:all": "npm test"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.11",
@@ -21,5 +21,5 @@
     "vitest": "^4.0.16",
     "ws": "^8.19.0"
   },
-  "packageManager": "bun@1.0.0"
+  "packageManager": "pnpm@9.0.0"
 }
